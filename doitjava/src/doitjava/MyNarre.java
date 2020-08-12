@@ -19,7 +19,6 @@ package doitjava;
 public class MyNarre {
 	
 	public static void main(String[] args) {
-		// TODO 자동 생성된 메소드 스텁
 		System.out.println("제 이름은 이현석입니다."); //화면출력 코드
 		System.out.println("전 지금 자바를 배웁니다"); //둘째 줄의 출력 코드
 	}
