@@ -30,7 +30,7 @@ public class IntegerEx {
 		result= sNum + bNum;
 		
 		long lNim = 3_000_000_000L;
-		System.out.println(lNum);
+		System.out.println(lNim);
 		
 	}
 
