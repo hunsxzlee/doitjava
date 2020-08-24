@@ -18,25 +18,7 @@ public class EvenOdd {
 		}
 		sc.close();
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+	
 		
 //		int thisMon = 8;
 //		System.out.println(thisMon + "이 숫자는 짝수 인가요?");
