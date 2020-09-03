@@ -4,23 +4,23 @@ public class PingPong {
 	public static void main(String[] args) {
 		for(int i=1; i<=100; i++) {
 			if(i % 3 == 0 && i % 5 == 0) {				//&&를 입력시 두개 동시에 검색하게 됨.
-				System.out.println(i + "pingPong");
+				System.out.print(i + "pingPong");
 			} else if(i % 5 == 0) {                    //첫번째에서 통과되지 못한 것중 두번째에서 참인것에 퐁이 출력됨
-				System.out.println(i + "Pong");
+				System.out.print(i + "Pong");
 			} else if(i % 3 == 0) {					
-				System.out.println(i + "Ping");
+				System.out.print(i + "Ping");
 			} else {
 				System.out.println(i);	
 			}		
 		}
 				
 		for(int i=1; i<=100; i++) {		
-			System.out.println(i + " ");
+			System.out.print(i + " ");
 			if(i % 3 == 0) {
-				System.out.println("Ping");
+				System.out.print("Ping");
 			}
 			if(i % 5 == 0) {
-				System.out.println("Pong");
+				System.out.print("Pong");
 			}
 			System.out.println();
 			

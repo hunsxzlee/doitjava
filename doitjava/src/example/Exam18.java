@@ -18,7 +18,7 @@ public class Exam18 {
 					if(j == line -i -1) {
 						System.out.print("*");
 					} else {
-						System.out.print(" ");
+						System.out.println(" ");
 				}
 				}	
 			}
@@ -34,7 +34,7 @@ public class Exam18 {
 			System.out.println();	
 		
 		for (int i = 0; i < line * 2 - 1; i++) {
-			System.out.println("*");
+			System.out.print("*");
 		}
 		}
 

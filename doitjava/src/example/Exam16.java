@@ -13,9 +13,9 @@ public class Exam16 {
 		for(int i = 0; i < line; i++) {
 			for(int j=0; j<=line; j++) {
 				if(j < line -i) {
-					System.out.println(" ");
+					System.out.print(" ");
 				} else {
-					System.out.println("*");
+					System.out.print("*");
 				}
 			}
 			for(int j=0; j<i; j++) {
